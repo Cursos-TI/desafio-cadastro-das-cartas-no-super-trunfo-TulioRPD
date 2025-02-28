@@ -20,7 +20,7 @@ char CodCarta2[3];
 printf("VAMOS CADASTRAR A PRIMEIRA CARTA\n");
 
     printf("Digite o Código da Carta: ");
-    scanf("%s", &CodCarta1);
+    scanf("%s", CodCarta1);
 
     printf("A qual Estado a carta pertence? ");
     scanf(" %c", &UF1);
@@ -49,7 +49,7 @@ printf("VAMOS CADASTRAR A PRIMEIRA CARTA\n");
         printf("AGORA É A VEZ DA SEGUNDA CARTA\n");
 
             printf("Digite o Código da Carta: ");
-            scanf("%s", &CodCarta2);
+            scanf("%s", CodCarta2);
 
             printf("A qual Estado a carta pertence? ");
             scanf(" %c", &UF2);
